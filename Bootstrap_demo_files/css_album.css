@@ -1,0 +1,355 @@
+.text_a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: oblique;
+	font-weight: normal;
+	color: #333333;
+}
+.text_a_heavy {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+.White_bold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.White_normal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: oblique;
+	font-weight: normal;
+	color: #FFFFFF;
+	
+}
+
+.a {
+	decoration: none;
+
+
+}
+.text_ared {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: oblique;
+	font-weight: normal;
+	color: #FF0000;
+}
+.text_box {
+	background-color: #FFFF8E;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.button_new {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.small_grey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+}
+.box_no_border {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	font-style: oblique;
+	border: 1px dotted #DFDFFF;
+	color: #333333;
+}
+.small_button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	background-color: #0000FF;
+	border-top: medium groove;
+	border-right: medium ridge;
+	border-bottom: medium inset;
+	border-left: medium outset;
+	height: auto;
+}
+.text_white_background {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0000FF;
+	background-color: #FFFFFF;
+}
+.text_a_heavyier {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.text_a_heavyRED {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF0000;
+}
+.small_box {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 10px;
+	font-weight: lighter;
+	color: #333333;
+	height: 14px;
+	border: thin solid #666666;
+	width: auto;
+}
+.box_no_border_red {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	border: none #DFDFFF;
+	font-style: oblique;
+}
+.small_button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	height: auto;
+	border: thin solid;
+}
+.driver_schedule_print {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.driver_schedule_print_grey {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666666;
+}
+.driver_schedule_printred {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FF0000;
+}
+.basic {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.red_blink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FF0000;
+	text-decoration: blink;
+	background-color: #FFFFFF;
+}
+.red_yellow {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF0000;
+	background-color: #FFFF00;
+	border: dotted;
+}
+.roundedcornr_box_240564 {
+   width: 800px;
+   margin:0 auto;
+   float: center;
+   background: #ffffff;
+}
+.roundedcornr_top_240564 div {
+   background: url(../../images/roundedcornr_240564_tl.png) no-repeat top left;
+}
+.roundedcornr_top_240564 {
+   background: url(../../images/roundedcornr_240564_tr.png) no-repeat top right;
+}
+.roundedcornr_bottom_240564 div {
+   background: url(../../images/roundedcornr_240564_bl.png) no-repeat bottom left;
+}
+.roundedcornr_bottom_240564 {
+   background: url(../../images/roundedcornr_240564_br.png) no-repeat bottom right;
+}
+
+.roundedcornr_top_240564 div, .roundedcornr_top_240564, 
+.roundedcornr_bottom_240564 div, .roundedcornr_bottom_240564 {
+   width: 100%;
+   height: 20px;
+   font-size: 1px;
+}
+.roundedcornr_content_240564 { margin: 0 20px; }.ws_small {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 8px;
+	font-weight: normal;
+}
+.ws_nameattop {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.ws_numberattop {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	font-style: oblique;
+	font-weight: bolder;
+}
+.ws_headers {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	a decoration: none
+}
+.ws_headers_yellow {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	a decoration: none;
+	background-color:#FFFF00
+}
+
+
+.small_boxlonger {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 10px;
+	font-weight: lighter;
+	color: #333333;
+	height: 16px;
+	border: thin solid #666666;
+	width: 250px;
+}
+.ws_headers_blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+
+	a decoration: none
+; 	font-style: oblique;
+	color: #0000FF;
+}
+.red_yellow2 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF0000;
+	background-color: #FFFF00;
+	border: none;
+}
+
+.roundedcorner{
+border:2px solid;
+-moz-border-radius:25px; /* Firefox */
+border-radius:25px;
+}.red_blink_large {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FF0000;
+	text-decoration: blink;
+	background-color: #FFFFFF;
+}
+.small_boxlonger_multiline {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 10px;
+	font-weight: lighter;
+	color: #333333;
+	height: auto;
+	border: thin solid #666666;
+	width: 400px;
+}
+.White_menu {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: oblique;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.text_white_background_feint {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #B3B3FF;
+	background-color: #FFFFFF;
+}
+.text_green_background {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0000FF;
+	background-color: #EAFFEA;
+}
+.text_yellow_background {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFF00;
+}
+
+.mono {
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+.contactbasic {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0F0;
+}
+
+.contactbasic a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0F0;
+}
+
+.trip_imminent {
+	color: #F00;	
+}
+
+.trip_completed {
+	opacity: 0.5;
+}

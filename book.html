@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Cars Oundle - Booking System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="time"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #2E86C1;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2E86C1;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Angel Cars Oundle Booking</h1>
+
+    <form action="/submit-booking" method="POST">
+        <label for="name">Full Name (Student) </label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <label for="date">Pickup Date</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Pickup Time</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="pickup">Pickup Location</label>
+        <input type="text" id="pickup" name="pickup" placeholder="Enter pickup location" required>
+
+        <label for="destination">Destination</label>
+        <input type="text" id="destination" name="destination" placeholder="Enter destination" required>
+
+        <label for="carType">Car Type</label>
+        <select id="carType" name="carType" required>
+            <option value="" disabled selected>Select car type</option>
+            <option value="saloon">Saloon (3 People)</option>
+            <option value="estate">Estate (3 People)</option>
+            <option value="mpv">Mini Van (6 people)</option>
+        </select>
+
+        <input type="submit" value="Book Now">
+    </form>
+</div>
+
+</body>
+</html>
