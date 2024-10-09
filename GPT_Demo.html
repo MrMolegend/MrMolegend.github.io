@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-
-    <link rel="stylesheet" href="C:\Users\belalcazar.mf\OneDrive - Oundle School\Computing\A-Level\Coursework\bootstrap_demo\Bootstrap_demo_files">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
     <title>Oundle Angel Cars</title>
     <style>
         body {
@@ -70,6 +70,57 @@
         img {
       width: 500px; 
     }
+
+.expandable-text {
+    font-size: 20px;
+    transition: font-size 0.3s ease; /* Transition for smooth effect */
+    cursor: pointer; /* Changes cursor to pointer */
+    margin-bottom: 20px; /* Space between text and button */
+}
+
+.expandable-text:hover {
+    font-size: 30px; /* Expanded size on hover */
+    color: #000000; /* Change color on hover */
+}
+
+.styled-button {
+    background-color: #83b4e9; /* Button background color */
+    color: rgb(0, 0, 0); /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for top/bottom and left/right */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Changes cursor to pointer */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    margin-bottom: 20px; /* Space between buttons */
+}
+
+.styled-button:hover {
+    background-color: #83b4e9; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarges button on hover */
+}
+
+.button-container {
+    display: flex; /* Align buttons in a row */
+    gap: 10px; /* Space between buttons */
+}
+
+.expandable-button {
+    background-color: #83b4e9; /* Green background color for buttons */
+    color: rgb(0, 0, 0); /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 1px 5px; /* Padding for top/bottom and left/right */
+    font-size: 12px; /* Font size */
+    cursor: pointer; /* Changes cursor to pointer */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.expandable-button:hover {
+    background-color: #2E86C1;
+    transform: scale(1.1);
+}
+
     </style>
       <link rel="icon" href="Sss.jpg">
 </head>
@@ -140,37 +191,31 @@
                   <div class="row text-center">
                     <div class="col-sm-4">
                       <div class="thumbnail">
-                        <img src="sprinter_1.jpg" alt="3">
-                        <p><strong>3</strong></p>
-                        <p>XXXXX3</p>
-                        <button class="btn">Buy Tickets</button>
-                      </div>
-                    </div>
+                        <img src="sprinter_1.jpg" alt="1">
+                        <p><strong>Mega Lux  </strong><button class="expandable-button"><a href="book.html">Book</a></button></p>
+                </div>
+                </div>
                     <div class="col-sm-4">
                       <div class="thumbnail">
                         <img src="Van_1.jpg" alt="2">
-                        <p><strong>2</strong></p>
-                        <p>XXXXX2</p>
-                        <button class="btn">Buy Tickets</button>
-                      </div>
-                    </div>
+                        <p><strong>Big Van  </strong><button class="expandable-button"><a href="book.html">Book</a></button></p>
+
+                </div>
+                </div>
                     <div class="col-sm-4">
                       <div class="thumbnail">
-                        <img src="OIP.jpg" alt="1">
-                        <p><strong>1</strong></p>
-                        <p>XXXXX1</p>
-                        <button class="btn">Buy Tickets</button>
-                    <div class="col-sm-4">
-                            <div class="thumbnail">
+                        <img src="OIP.jpg" alt="3">
+                        <p><strong>Small Bus  <strong><button class="expandable-button"><a href="book.html">Book</a></button></p>
+                </div>
+                </div>   
+                <div class="col-sm-4">
+                        <div class="thumbnail">
                               <img src="two_cars.jpg" alt="4">
-                              <p><strong>4</strong></p>
-                              <p>XXXXX4</p>
-                              <button class="btn">Buy Tickets</button>
+                            <p><strong>Small Van  </strong><button class="expandable-button"><a href="book.html">Book</a></button></p>                            
                       </div>
                     </div>
                   </div>
-        </div>
+                </div>
     </section>
-</div>
 </body>
 </html>
